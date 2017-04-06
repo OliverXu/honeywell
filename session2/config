@@ -1,0 +1,35 @@
+[devices]
+dev0 = emulator-5554
+dev1 = emulator-5556
+[device_types]
+dev0_type = ct50
+dev1_type = ct50
+[general]
+debug_logging = off
+wifi_ssid = ANDROID-CTS
+wifi_identity =
+wifi_anonymous_identity =
+wifi_passwd = 01234567
+sd_card0 = 56F1-0DD7
+sd_card1 = 9016-4EF8
+google_id = honeywellcn51@gmail.com
+google_passwd = ct50honeywell
+time_zone = Shanghai
+name = Honeywell
+device_language = English (United States)
+new_wifi_ssid = ANDROID-CTS
+new_wifi_passwd = 01234567
+hidden_wifi_ssid =
+hidden_wifi_passwd =
+location = 3gnet
+apn_name =China Unicom 3g
+puk1 = 50900900
+puk2 =
+simlock_attempts = 10
+cn51_image = fastboot - CN51 - 74.01.00.0271D.zip
+ct50_image = HELSINKIAD_71.01.04.0015E.zip
+usb_relay_ip = 10.1.79.222
+usb_relay_port = 5000
+[number]
+contact_number_0 = 15555215554
+contact_number_1 = 15555215556
