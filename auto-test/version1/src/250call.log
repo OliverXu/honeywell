@@ -1,0 +1,1340 @@
+*************************************************************
+Starting test case PHA-TSTRN-11459-250-CALLS.py
+*************************************************************
+Creating log file: session_name=250_call, tc_name=PHA-TSTRN-11459-250-CALLS, path=../../../250_call/PHA-TSTRN-11459-250-CALLS_2017033013-35-26_script.log
+<open file '../../../250_call/PHA-TSTRN-11459-250-CALLS_2017033013-35-26_script.log', mode 'a' at 0x7f3a5f79f300>
+Reading parameters from config files...
+Reading config file: ../config/PHA-TSTRN-11459-250-CALLS.config
+Completed reading config file: ../config/PHA-TSTRN-11459-250-CALLS.config
+Reading test_case_info
+Reading test_case_params
+Reading session config file
+Reading config file: ../../../250_call/config
+Completed reading config file: ../../../250_call/config
+dev_str=dev0_type; dev_type=ct50; config_string_section=config_strings_ct50
+Warning: Config strings section is not added in the TC Config file
+dev_str=dev1_type; dev_type=ct50; config_string_section=config_strings_ct50
+Warning: Config strings section is not added in the TC Config file
+calling Read_config_file method to read config file
+Reading config file: ../../../framework/common/key_press.config
+Completed reading config file: ../../../framework/common/key_press.config
+dev_str=dev0_type; dev_type=ct50; key_press_section=keypress_events_ct50
+dev_str=dev1_type; dev_type=ct50; key_press_section=keypress_events_ct50
+Reading config file: ../../../framework/common/commands.config
+Completed reading config file: ../../../framework/common/commands.config
+tc_config_initialize exiting
+Watchdog: 13000
+List of devices attached
+emulator-5554	device
+emulator-5556	device
+
+
+Devices required for TC: 1, Devices specified in session config: 2, Devices actually connected: 2
+Starting log_analyzer threads
+Adb Log Path: ../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev0.log
+Creating log file: session_name=250_call, tc_name=PHA-TSTRN-11459-250-CALLS, path=../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev0.log
+<open file '../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev0.log', mode 'a' at 0x7f3a5f79f390>
+loganalyzer  started
+threadID=0, name=threadname, exitFlag=0, configfile=../config/PHA-TSTRN-11459-250-CALLS.config, dev_info=emulator-5554, dev_id=0, dev_type=ct50, dev_required=1
+Adb Log Path: ../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev1.log
+Creating log file: session_name=250_call, tc_name=PHA-TSTRN-11459-250-CALLS, path=../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev1.log
+<open file '../../../250_call/PHA-TSTRN-11459-250-CALLS_20170330_13-35-26_adbdev1.log', mode 'a' at 0x7f3a5f79f4b0>
+loganalyzer  started
+threadID=1, name=threadname, exitFlag=0, configfile=../config/PHA-TSTRN-11459-250-CALLS.config, dev_info=emulator-5556, dev_id=1, dev_type=ct50, dev_required=1
+Test case initialization complete
+*************************************************************
+[<log_analyzer(threadname, initial)>, <log_analyzer(threadname, initial)>]
+Starting  PHA-TSTRN-11459-250-CALLSSetting test case watchdog timer: 13000 secs
+
+Running test case thread
+Call times: 250
+Start call progress...
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 1
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 2
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 3
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 4
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 5
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 6
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 7
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 8
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 9
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 10
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 11
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 12
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 13
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 14
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 15
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 16
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 17
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 18
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 19
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 20
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 21
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 22
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 23
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 24
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 25
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 26
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 27
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 28
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 29
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 30
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 31
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 32
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 33
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 34
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 35
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 36
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 37
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 38
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 39
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 40
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 41
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 42
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 43
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 44
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 45
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 46
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 47
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 48
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 49
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 50
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 51
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 52
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 53
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 54
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 55
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 56
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 57
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 58
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 59
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 60
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 61
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 62
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 63
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 64
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 65
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 66
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 67
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 68
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 69
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 70
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 71
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 72
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 73
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 74
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 75
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 76
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 77
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 78
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 79
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 80
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 81
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 82
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 83
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 84
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 85
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 86
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 87
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 88
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 89
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 90
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 91
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 92
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 93
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 94
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 95
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 96
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 97
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 98
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 99
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 100
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 101
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 102
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 103
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 104
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 105
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 106
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 107
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 108
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 109
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 110
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 111
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 112
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 113
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 114
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 115
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 116
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 117
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 118
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 119
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 120
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 121
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 122
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 123
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 124
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 125
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 126
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 127
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 128
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 129
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 130
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 131
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 132
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 133
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 134
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 135
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 136
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 137
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 138
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 139
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 140
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 141
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 142
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 143
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 144
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 145
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 146
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 147
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 148
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 149
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 150
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 151
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 152
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 153
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 154
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 155
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 156
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 157
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 158
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 159
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 160
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 161
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 162
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 163
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 164
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 165
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 166
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 167
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 168
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 169
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 170
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 171
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 172
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 173
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 174
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 175
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 176
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 177
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 178
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 179
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 180
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 181
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 182
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 183
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 184
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 185
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 186
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 187
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 188
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 189
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 190
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 191
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 192
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 193
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 194
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 195
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 196
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 197
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 198
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 199
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 200
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 201
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 202
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 203
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 204
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 205
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 206
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 207
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 208
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 209
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 210
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 211
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 212
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 213
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 214
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 215
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 216
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 217
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 218
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 219
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 220
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 221
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 222
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 223
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 224
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 225
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 226
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 227
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 228
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 229
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 230
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 231
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 232
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 233
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 234
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 235
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 236
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 237
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 238
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 239
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 240
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 241
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emPING www.a.shifen.com (180.97.33.108) 56(84) bytes of data.
+
+--- www.a.shifen.com ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4017ms
+
+ulator-5554'
+current call times is: 242
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 243
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 244
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 245
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 246
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 247
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 248
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 249
+Run_Adb_Cmd: 'adb shell am start -a android.intent.action.CALL -d tel:15555215556' command on Dev: 'emulator-5554'
+sleep 5 seconds...
+Run_Adb_Cmd: 'adb shell input keyevent 5' command on Dev: 'emulator-5556'
+Run_Adb_Cmd: 'adb shell input keyevent 6' command on Dev: 'emulator-5554'
+current call times is: 250
+End call progress.
+verify dev0 call history message 
+Run_Adb_Cmd: 'adb shell am start -n com.android.dialer/.DialtactsActivity' command on Dev: 'emulator-5554'
+dev0 scroll call history page
+dev0 focus to the detail
+list the dev0 info
+{u'contentDescription': u'', u'checked': False, u'clickable': False, u'scrollable': False, u'text': u'(250) 0 min. ago', u'packageName': u'com.android.dialer', u'selected': False, u'enabled': True, u'bounds': {u'top': 406, u'left': 235, u'right': 441, u'bottom': 444}, u'className': u'android.widget.TextView', u'focusable': False, u'focused': False, u'checkable': False, u'resourceName': None, u'longClickable': False, u'visibleBounds': {u'top': 406, u'left': 235, u'right': 441, u'bottom': 444}, u'childCount': 0}
+dev0 call times: 250
+verify dev1 call history message 
+emulator-5556
+Run_Adb_Cmd: 'adb shell am start -n com.android.dialer/.DialtactsActivity' command on Dev: 'emulator-5556'
+scroll call history page
+focus to the detail
+list the dev1 info
+{u'contentDescription': u'', u'checked': False, u'clickable': False, u'scrollable': False, u'text': u'(250) 0 min. ago', u'packageName': u'com.android.dialer', u'selected': False, u'enabled': True, u'bounds': {u'top': 406, u'left': 235, u'right': 441, u'bottom': 444}, u'className': u'android.widget.TextView', u'focusable': False, u'focused': False, u'checkable': False, u'resourceName': None, u'longClickable': False, u'visibleBounds': {u'top': 406, u'left': 235, u'right': 441, u'bottom': 444}, u'childCount': 0}
+dev1 receive call times: 250
+verify dev0 could connect internet
+ping return stsh: 1: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+r: 0
+Run_Adb_Cmd: 'adb shell input keyevent 3' command on Dev: 'emulator-5554'
+Run_Adb_Cmd: 'adb shell pm clear com.android.providers.contacts' command on Dev: 'emulator-5554'
+Run_Adb_Cmd: 'adb shell pm clear com.android.providers.contacts' command on Dev: 'emulator-5556'
+********************************
+*                              *
+*   Test Case Verdict: PASS    *
+*                              *
+********************************
+Entered tc_cleanup. Exiting the cpu_thread
+Stopping thread
+Exiting loganalyzer threads
+tc_cleanup method exiting
+Completed test steps for PHA-TSTRN-11459-250-CALLS
+Test Case Thread Exits
