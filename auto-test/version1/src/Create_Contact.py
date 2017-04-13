@@ -96,6 +96,7 @@ class test_case(threading.Thread):
             #time.sleep(2)
 
             '''
+            #we should use these code if we run on 7.1 version
             tc_log("start open search app list", 'INFO')
             self.tc_details['ui_dev0'](description="Apps list", className="android.widget.ImageView").drag.to(width / 2,0,100)
             time.sleep(2)
@@ -111,6 +112,7 @@ class test_case(threading.Thread):
             time.sleep(5)
 
             '''
+            #we should use these code if we run on 7.0 version
             tc_log("start open search app list", 'INFO')
             open_app(self.tc_details['dev0'], 'google_quick_search')
             time.sleep(2)
@@ -125,6 +127,7 @@ class test_case(threading.Thread):
             if self.tc_details['ui_dev0'](textContains="Search", className="android.widget.EditText").exists:
                 self.tc_details['ui_dev0'](textContains="Search", className="android.widget.EditText").set_text('p')
             time.sleep(5)
+            #end for 7.0 version
 
             tc_log("click phone", 'INFO')
             if self.tc_details['ui_dev0'](text="Phone", className="android.widget.TextView").exists:
@@ -206,16 +209,18 @@ class test_case(threading.Thread):
             time.sleep(2)
 
             '''
+            #we should use these code if we run on 7.1 version
             go_back(self.tc_details['dev0'])
             time.sleep(2)
             '''
+            #we should use these code if we run on 7.0 version
             open_app(self.tc_details['dev0'],'contacts')
             time.sleep(2)
 
             if (self.tc_details['ui_dev0'](description=self.tc_details['name']).exists):
                 self.tc_details['ui_dev0'](description=self.tc_details['name']).click()
             time.sleep(2)
-
+            #end for 7.0 version
             if (self.tc_details['ui_dev0'](description='More options').exists):
                 self.tc_details['ui_dev0'](description='More options').click()
             time.sleep(2)
